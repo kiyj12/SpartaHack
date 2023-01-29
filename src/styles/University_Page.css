@@ -26,6 +26,7 @@
     width: 30%;
     height: 40%;
     padding-block: 30px;
+
     margin-left: 20px;
     margin-block: 40px;
     background-color: rgb(151, 171, 171);
@@ -39,6 +40,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     margin: auto auto;
 }
 
@@ -47,12 +49,12 @@
     min-width: 220px;
     height: 50px;
     margin: 10px auto;
-    font-size: 15px;
+    font-size: 0.85em;
     font-weight: bold;
-
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border: none;
     border-radius: 10px ;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
     padding-left: 10px;
 }
 
@@ -60,7 +62,7 @@
     width: 150px;
     height: 40px;
     margin: 5px auto;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border: none;
     border-radius: 10px ;
 }
@@ -69,7 +71,7 @@
     height: 300px;
     color: whitesmoke;
     background-color: #486161;
-    font-size: 40px;
+    font-size: 2.3em;
     line-height: 80px;
     margin: auto 0;
     margin-right: 40px;
@@ -84,11 +86,10 @@
     height: 70%;
     padding-top: 50px;
     margin-left: 0px;
-    padding-left: 80px;
-    padding-right: 50px;
+    padding-left: 3%;
 }
 
 .University_Text {
     color: whitesmoke;
-    font-size: x-large;
+    font-size: 1.5em;
 }

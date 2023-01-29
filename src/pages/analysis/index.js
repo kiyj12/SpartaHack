@@ -23,13 +23,12 @@ export default function Analysis_Main() {
               <option value="MSU">
               Michigan State University
               </option>
-              
               <option value="OSU">Ohio State University</option>
               <option value="PSU">Penn State University</option>
-              <option value="UOM">University of Michigan</option>
-              <option value="IU">Indiana University</option>
-              <option value="UOW">University of Wisconsin</option>
-              <option value="RU">Rutgers University</option>
+              <option value="UOM" >University of Michigan</option>
+              <option value="IU" >Indiana University</option>
+              <option value="UOW" >University of Wisconsin</option>
+              <option value="RU" >Rutgers University</option>
             </datalist>
           </div>
           <div className="Analysis_Search_Attribute">
@@ -41,9 +40,9 @@ export default function Analysis_Main() {
               
               <option value="OSU">Ohio State University</option>
               <option value="PSU">Penn State University</option>
-              <option value="UOM">University of Michigan</option>
-              <option value="IU">Indiana University</option>
-              <option value="UOW">University of Wisconsin</option>
+              <option value="UOM" >University of Michigan</option>
+              <option value="IU" >Indiana University</option>
+              <option value="UOW" >University of Wisconsin</option>
               <option value="RU">Rutgers University</option>
             </datalist>
           </div>
@@ -54,6 +53,8 @@ export default function Analysis_Main() {
               <option value="Tuition"/>
               <option value="Acceptance Rate"/>
               <option value="Graduation Rate"/>
+              <option value="Retention Rate" />
+              <option value="Cost of Room and Board" />
             </datalist>
           </div>
           <button className="Analysis_SearchButton" type="submit">Search</button>
