@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+}
+
+.Analysis_container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+}
+
+
+
+.Analysis_Search_Zone {
+  width: 100%;
+  height: 50px;
+}
+
+.Analysis_Search_Form {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Analysis_Search_Attribute {
+  margin: auto 0;
+}
