@@ -68,7 +68,7 @@
 .University_UnivNameZone {
     height: 300px;
     color: whitesmoke;
-    background-color: rgb(72, 97, 97);
+    background-color: #486161;
     font-size: 40px;
     line-height: 80px;
     margin: auto 0;
@@ -77,10 +77,6 @@
     flex-direction: column;
     justify-content: center;
 
-}
-
-body {
-    background-color: rgb(72, 97, 97);
 }
 
 .University_BottomPartZone{
