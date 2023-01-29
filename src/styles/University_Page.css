@@ -1,31 +1,79 @@
 .University_Toolbar {
 
-    margin-left: 0px;
+    padding: 0 6px;
     display: flex;
     justify-content:stretch;
-    font-size: 2.6vw;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
     display:inline-block;
-    background-color:tan;
+    line-height: 60px;
+
 }
 
 .University_UpperPartZone {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 40%;
 }
 
 .University_SearchZone {
     width: 30%;
+    height: 40%;
     padding-block: 30px;
+    margin-left: 20px;
     margin-block: 40px;
+    background-color: rgb(151, 171, 171);
+    border-radius: 45px ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.University_SearchForm {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto auto;
+}
+
+.University_Search_Input {
+    width: 75%;
+    min-width: 220px;
+    height: 50px;
+    margin: 10px auto;
+    font-size: 15px;
+    font-weight: bold;
+
+    border: none;
+    border-radius: 10px ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding-left: 10px;
+}
+
+.University_SearchButton {
+    width: 150px;
+    height: 40px;
+    margin: 5px auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border: none;
+    border-radius: 10px ;
 }
 
 .University_UnivNameZone {
-    width: 40%;
+    height: 300px;
     color: whitesmoke;
     background-color: rgb(72, 97, 97);
-    font-size: xx-large;
+    font-size: 40px;
+    line-height: 80px;
+    margin: auto 0;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 body {
@@ -33,7 +81,7 @@ body {
 }
 
 .University_BottomPartZone{
-    background-color: rgb(9, 55, 56);
+    background-color: #18453B;
     height: 70%;
     padding-top: 50px;
     margin-left: 0px;

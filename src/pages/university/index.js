@@ -8,22 +8,23 @@ export default function Univ_Main () {
 
   return (
     <div style={{width:"100%", height:"100vh"}}>
+      <div style={{width: "100%", minHeight: "60px",     backgroundColor:"#d2b48c", paddingLeft: "20px"}}>
           <div className='University_Toolbar'>
-            | COLLEGESTATSFAST.COM | 
+            HOME |
             </div>
-            <div className='University_Toolbar'>
-              ABOUT US | 
+            <div className='University_Toolbar'>ABOUT US | 
               </div>
             <div className='University_Toolbar'>
               COMPARE SCHOOLS | 
               </div>
             <div className='University_Toolbar'> 
-              SEARCH SCHOOLS |
-            </div>
+              SEARCH SCHOOLS
+            </div>   
+      </div>
       <div className='University_UpperPartZone'>
-      <div className='University_SearchZone' style={{backgroundColor:"rgb(72, 97, 97)"}}>
-      <form>
-        <input list="univs" name="univ" />
+      <div className='University_SearchZone'>
+      <form className='University_SearchForm'>
+        <input className='University_Search_Input' list="univs" name="univ" placeholder=' Select University Name' required/>
         <datalist id="univs">
           <option value="MSU">Michigan State University</option>
           <option value="OSU">Ohio State University</option>
@@ -34,7 +35,7 @@ export default function Univ_Main () {
           <option value="RU">Rutgers University</option>
         </datalist>
 
-        <input list="years" name="year" />
+        <input className='University_Search_Input' list="years" name="year" placeholder=' Select Year' required/>
         <datalist id="years">
           <option value="2021"/>
           <option value="2019"/>
@@ -44,7 +45,7 @@ export default function Univ_Main () {
           <option value="2011"/>
           <option value="2009"/>
         </datalist>
-        <button type='submit'>Search</button>
+        <button className="University_SearchButton" type='submit'>Search</button>
         </form>
         </div>
         <div className='University_UnivNameZone'>
