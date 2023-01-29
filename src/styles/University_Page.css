@@ -1,0 +1,47 @@
+.University_Toolbar {
+
+    margin-left: 0px;
+    display: flex;
+    justify-content:stretch;
+    font-size: 2.6vw;
+    display:inline-block;
+    background-color:tan;
+}
+
+.University_UpperPartZone {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 40%;
+}
+
+.University_SearchZone {
+    width: 30%;
+    padding-block: 30px;
+    margin-block: 40px;
+}
+
+.University_UnivNameZone {
+    width: 40%;
+    color: whitesmoke;
+    background-color: rgb(72, 97, 97);
+    font-size: xx-large;
+}
+
+body {
+    background-color: rgb(72, 97, 97);
+}
+
+.University_BottomPartZone{
+    background-color: rgb(9, 55, 56);
+    height: 70%;
+    padding-top: 50px;
+    margin-left: 0px;
+    padding-left: 80px;
+    padding-right: 50px;
+}
+
+.University_Text {
+    color: whitesmoke;
+    font-size: x-large;
+}
