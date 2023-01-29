@@ -29,7 +29,7 @@ export default function Home() {
       </div>
       <p className='Main_p'>
         <em>
-          Know the facts before you choose your path.
+          Know the facts before you choose your path..
           </em>
       </p>
       </div>
