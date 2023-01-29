@@ -10,18 +10,32 @@ export default function UnivInfo(props) {
 
   return(
     <div className="UnivInfo_Container">
-      <div>
-        University Name : {univ_name}
+      <ul>
+        <li>
+        <div className="UnivInfo_List">
+        University Name <br/>: {univ_name}
       </div>
-      <div>
+        </li>
+        <li>
+        <div className="UnivInfo_List">
         Tuition : ${tuition}
       </div>
-      <div>
+        </li>
+        <li>
+        <div className="UnivInfo_List">
         Acceptance Rate : {acceptance_rate}%
       </div>
-      <div>
+        </li>
+        <li>
+        <div className="UnivInfo_List">
         Graduation Rate : {grad_rate}%
       </div>
+        </li>
+      </ul>
+
+
+
+
     </div>
   )
   }
