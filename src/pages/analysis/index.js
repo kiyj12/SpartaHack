@@ -18,7 +18,7 @@ export default function Analysis_Main() {
       <div className="Analysis_Search_Zone">
         <form className="Analysis_Search_Form">
           <div className="Analysis_Search_Attribute">
-            <input list="univs" name="univ1" />
+            <input list="univs" name="univ1" className="Anlysis_SearchInput" placeholder="Select First University"/>
             <datalist id="univs">
               <option value="MSU">
               Michigan State University
@@ -33,7 +33,7 @@ export default function Analysis_Main() {
             </datalist>
           </div>
           <div className="Analysis_Search_Attribute">
-            <input list="univs" name="univ2" />
+            <input className="Anlysis_SearchInput" list="univs" name="univ2"  placeholder="Select Second University"/>
             <datalist id="univs">
               <option value="MSU">
               Michigan State University
@@ -49,14 +49,14 @@ export default function Analysis_Main() {
           </div>
           
           <div className="Analysis_Search_Attribute">
-            <input list="attrs" name="attr" />
+            <input className="Anlysis_SearchInput" list="attrs" name="attr"  placeholder="Select Attribute"/>
             <datalist id="attrs">
               <option value="Tuition"/>
               <option value="Acceptance Rate"/>
               <option value="Graduation Rate"/>
             </datalist>
           </div>
-          <button type="submit">Search</button>
+          <button className="Analysis_SearchButton" type="submit">Search</button>
         </form>
       </div>
       <div className="Analysis_container">

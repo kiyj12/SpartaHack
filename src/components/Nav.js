@@ -14,7 +14,8 @@ export default function Nav() {
               </Link>
               </div>
             <div className='University_Toolbar'> 
-              SEARCH SCHOOLS
+            <Link href={"../university?univ=MSU&year=2021"} style={{color:"black"}}> 
+              SEARCH SCHOOLS </Link>
             </div>   
       </div>
   )

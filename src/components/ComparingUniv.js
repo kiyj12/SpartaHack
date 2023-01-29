@@ -89,11 +89,16 @@ export default function ComparingUniv(props) {
   console.log(univ1_data);
   return (
     <div className="ComparingUniv_Container">
-      <div className="Comparing_graph">
+      
+      <div className="ComparingUniv_GraphZone">
+        <div className="ComparingUniv_GraphTitle">
+        <h1>Comparison of {attr}</h1>
+        </div>
         <Line 
+          className="ComparingUniv_LineGraph"
           data={data}
           width={400}
-          height={400}
+          height={500}
         />
       </div>
     </div>
