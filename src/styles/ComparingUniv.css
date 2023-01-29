@@ -1,4 +1,11 @@
 .ComparingUniv_Container {
   width: 100%;
   height: 100%;
+  background-color: #fff;
+  padding: 0 30px;
+}
+
+.Comparing_graph {
+  width: 30%;
+  height: 100%;
 }
