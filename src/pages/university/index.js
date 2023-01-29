@@ -1,5 +1,6 @@
 import UnivMain from '@/components/UnivMain';
 import { useRouter } from 'next/router'
+import Nav from '@/components/Nav';
 
 export default function Univ_Main () {
   const router = useRouter();
@@ -8,19 +9,7 @@ export default function Univ_Main () {
 
   return (
     <div style={{width:"100%", height:"100vh"}}>
-      <div style={{width: "100%", minHeight: "60px",     backgroundColor:"#d2b48c", paddingLeft: "20px"}}>
-          <div className='University_Toolbar'>
-            HOME |
-            </div>
-            <div className='University_Toolbar'>ABOUT US | 
-              </div>
-            <div className='University_Toolbar'>
-              COMPARE SCHOOLS | 
-              </div>
-            <div className='University_Toolbar'> 
-              SEARCH SCHOOLS
-            </div>   
-      </div>
+      <Nav/>
       <div className='University_UpperPartZone'>
       <div className='University_SearchZone'>
       <form className='University_SearchForm'>
