@@ -1,6 +1,7 @@
 import UnivInfo from "@/components/UnivInfo";
 import ComparingUniv from "@/components/ComparingUniv";
 import { useRouter } from 'next/router'
+import Nav from "@/components/Nav";
 
 
 export default function Analysis_Main() {
@@ -13,6 +14,7 @@ export default function Analysis_Main() {
 
   return (
     <div className="Analysis_Page_container">
+      <Nav/>
       <div className="Analysis_Search_Zone">
         <form className="Analysis_Search_Form">
           <div className="Analysis_Search_Attribute">

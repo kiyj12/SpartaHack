@@ -11,25 +11,25 @@ export default function UnivMain (props) {
 
 
   return(
-    <div>
+    <div className="UnivMain_container">
       <ul>
       <li>
-        <div>
+        <div className="UnivMain_line">
         University Name : {univ_name}
         </div>
       </li>
       <li>
-      <div>
+      <div className="UnivMain_line">
         Tuition : ${tuition}
       </div>
       </li>
       <li>
-      <div>
+      <div className="UnivMain_line">
         Acceptance Rate : {acceptance_rate}%
       </div>
       </li>
       <li>
-      <div>
+      <div className="UnivMain_line">
         Graduation Rate : {grad_rate}%
       </div>
       </li>
