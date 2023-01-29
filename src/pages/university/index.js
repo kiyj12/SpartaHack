@@ -8,7 +8,7 @@ export default function Univ_Main () {
   var year = router.query.year;
 
   return (
-    <div style={{width:"100%", height:"100vh", backgroundColor:rgb(72, 97, 97)}}>
+    <div style={{width:"100%", height:"100vh", backgroundColor:"rgb(72, 97, 97)"}}>
       <Nav/>
       <div className='University_UpperPartZone'>
       <div className='University_SearchZone'>
