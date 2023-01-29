@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -17,7 +18,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
-            Get starteasddaasdsd by editing&nbsp;
+            Get starteasddaagggsdsd by editing&nbsp;
             <code className={styles.code}>src/pages/index.js</code>
           </p>
           <div>
